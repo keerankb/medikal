@@ -492,7 +492,9 @@ hr {
 }
 
 .services-item:hover {
-  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  box-shadow: 0 10px 22px 10px rgba(220, 53, 69, 0.3);
+  /*border: 0.5px solid #dc3545;*/
+
 }
 
 .services-item:hover .icon {
