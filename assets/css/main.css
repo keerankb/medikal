@@ -428,12 +428,133 @@ hr {
   width: 100%;
 }
 
+
+
+
+
+
+#order form h4 {
+  text-align: center;
+  color: #fff;
+}
+#order form p {
+  padding-bottom: 30px;
+  color: #fff;
+}
+#order form {
+  /*padding: 80px 50px;*/
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  /*max-width: 500px;*/
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #dc3545;
+  /*background-image: linear-gradient(to bottom right, #f57373, #ff5252);*/
+}
+/*@media screen and (min-width: 991px) and (max-width: 1200px) {
+  #order form {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}*/
+@media screen and (min-width: 575px) and (max-width: 991px) {
+  #order form {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+}
+@media screen and (min-width: 395px) and (max-width: 574px) {
+  #order form {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+@media screen and (max-width: 394px) {
+  #order form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
+#order .call-whatsapp a {
+  color: #fff;
+  text-decoration: underline;
+  /*margin-top: 20px;*/
+}
+
+#order form input {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #d4555f;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#order form input:active {
+  border: 1px solid #fff;
+}
+#order form input:focus {
+  border: 1px solid #fff;
+}
+#order form input::placeholder { 
+  color: #fff;
+  opacity: 1; 
+}
+
+#order form textarea::placeholder { 
+  color: #fff;
+}
+
+#order form textarea {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #d4555f;
+}
+#order form textarea:active {
+  border: 1px solid #fff;
+}
+#order form textarea:focus {
+  border: 1px solid #fff;
+}
+#order form .form-control-file {
+  border-radius: 5px;
+  border: 1px solid #d4555f;
+}
+#order form .form-control-file:active {
+  border: 1px solid #fff;
+}
+#order form .form-control-file:focus {
+  border: 1px solid #fff;
+}
+#order button {
+  margin-top: 30px;
+  background-color: #fff;
+  color: #dc3545;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#order button:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border: 1px solid #fff;
+}
+
+
+
 /* Services Item */
 #services {
   /*background-image: url(../img/banner-2/64669.jpg);*/
   background-color: #ebebeb;
 
 }
+
 .services-item {
   padding: 20px;
   border-radius: 4px;
@@ -1300,6 +1421,11 @@ textarea {
   transform: translateY(-50%);
   width: 40px;
 }
+@media screen and (max-width: 991px) {
+.map {
+  padding-top: 20px;
+}
+}
 
 .h3 {
   float: right;
@@ -1308,7 +1434,23 @@ textarea {
 
 /*cta
 */
-#cta{background: ;}
+/*#cta{background: url(../img/feature/cta.jpg);}*/
+
+#cta {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#cta h4 {
+  font-size: 30px;
+  font-family: 'Arvo', serif;
+  color: #222222;
+  font-weight: 700;
+  padding-top: 20px;
+}
+#cta a {
+  /*justify-content: center;*/
+  margin-top: 20px;
+}
 
 /* Footer Area Start */
 .footer-area {

@@ -62,13 +62,13 @@
                   Clients
                 </a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="#contact">
                   Contact
                 </a>
-              </li> -->
+              </li>
               <li class="nav-item">
-                  <a href="#contact"><button class="btn btn-danger" href="#contact">Order Now</button></a>
+                  <a href="#order"><button class="btn btn-danger" href="#order">Order Now</button></a>
               </li>
             </ul>
           </div>
@@ -85,7 +85,7 @@
                 <h2 class="head-title">Welcome to Medikal</h2>
                 <p>We deliver free home delivery of medicine and medical shop items in Pune City with Discounts</p>
                 <div class="header-button">
-                  <a href="#contact" class="btn btn-common">Order Now</i></a>
+                  <a href="#order" class="btn btn-common">Order Now</i></a>
                   <!-- <a href="#" class="btn btn-border video-popup">Learn More</i></a> -->
                 </div>
               </div>
@@ -197,6 +197,33 @@
     </section>
     <!-- Services Section End -->
 
+
+<!-- Order form  -->
+<section id="order" class="section-padding">
+    <div class="container">
+        <div class="text-center">
+    <form class="wow fadeInUp" data-wow-delay="0.3s">
+            <h4 class="wow fadeInDown" data-wow-delay="0.6s">Order Now</h4>
+            <p class="wow fadeInDown" data-wow-delay="0.6s">We deliver free home delivery of medicine and medical shop items in Pune City with Discounts.</p>
+            <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                <input type="number" name="pnumber" class="form-control" placeholder="Your Phone Number" required maxlength="10" minlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <textarea name="address" class="form-control" placeholder="Your Address" required></textarea>   
+                <input type="text" name="orderdescription" class="form-control" placeholder="If Any Notes"> 
+                <input type="file" class="form-control-file" id="uploadfile" required>
+                <button class="btn wow fadeInDown" data-wow-delay="0.6s" type="submit">Confirm Order</button>
+            </div>
+            <div class="call-whatsapp wow fadeInDown" data-wow-delay="0.6s">
+                <p>CALL/WHATSAPP US: <a target="_blank" href="https://wa.me/+919876543210">9876543210</a></p>
+            </div>
+        </form>
+        </div>
+        </div>
+</section>
+<!-- Order form -->
+
+
+
     <!-- About Section start -->
     <div id="team" class="about-area section-padding bg-gray">
       <div class="container">
@@ -211,7 +238,7 @@
                 <div class="content">
                   <p>Free to contact.Order medicines online.We deliver medicines on time. Trust Us.
                   </p>
-                  <a href="#contact" class="btn btn-common mt-3">Order Now</a>
+                  <a href="#order" class="btn btn-common mt-3">Order Now</a>
                 </div>
               </div>
             </div>
@@ -465,21 +492,21 @@
     <!-- Testimonial Section End -->
 
     <!-- Call To Action Section Start -->
-    <!-- <section id="cta" class="section-padding">
+    <section id="cta" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">           
             <div class="cta-text">
-              <h4>Get 30 days free trial</h4>
-              <p>Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, at finibus neque odio quis metus. Donec vulputate arcu quam. </p>
+              <h4>Are you looking for professional software developer please contact us</h4>
+              <!-- <p>Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, at finibus neque odio quis metus. Donec vulputate arcu quam. </p> -->
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-xs-12 text-right wow fadeInRight" data-wow-delay="0.3s">
-            </br><a href="#" class="btn btn-common">Register Now</a>
+            </br><a href="https://wwww.destovtech.com" class="btn btn-common">Contact Now</a>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Call To Action Section Start -->
 
     <!-- Contact Section Start -->
@@ -628,7 +655,6 @@
     <script src="assets/js/jquery.easing.min.js"></script>  
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
-      
+    <script src="assets/js/contact-form-script.min.js"></script>      
   </body>
 </html>
